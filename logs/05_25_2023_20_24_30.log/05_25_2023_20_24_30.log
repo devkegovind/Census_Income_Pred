@@ -1,0 +1,13 @@
+[ 2023-05-25 20:24:31,310 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-25 20:24:31,312 ] 186 werkzeug - INFO -  * Debugger PIN: 818-497-020
+[ 2023-05-25 20:24:47,890 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:24:47] "GET / HTTP/1.1" 200 -
+[ 2023-05-25 20:24:52,272 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:24:52] "GET / HTTP/1.1" 200 -
+[ 2023-05-25 20:25:04,346 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:25:04] "GET /predict HTTP/1.1" 200 -
+[ 2023-05-25 20:25:30,708 ] 68 root - INFO - Dataframe Gathered
+[ 2023-05-25 20:25:31,096 ] 23 root - INFO - Exception Occured in Prediction
+[ 2023-05-25 20:25:31,201 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:25:31] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2023-05-25 20:25:31,216 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:25:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-05-25 20:25:31,235 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:25:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-05-25 20:25:31,280 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:25:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-25 20:25:31,306 ] 186 werkzeug - INFO - 127.0.0.1 - - [25/May/2023 20:25:31] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-05-25 20:33:04,928 ] 186 werkzeug - INFO -  * Detected change in 'D:\\credit_1\\src\\pipeline\\prediction_pipeline.py', reloading
